@@ -1,0 +1,36 @@
+<link rel="icon" href="drive-logo.png">
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.afterglow  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<video class="afterglow" id="my-video" width="1280" height="720" data-skin="dark" poster="https://sh20raj.github.io/Sopplayer/sample.png">
+        <source type="video/mp4" src="https://bit.ly/bbsamplevideo" />
+    </video>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/afterglowplayer@1.x"></script>
+<script>
+  let apikey = 'AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw';
+  function getparam(a,e){return e||(e=window.location.href),new URL(e).searchParams.get(a)}
+
+  let video = videojs('my-video')
+  if(getparam('id')){
+    let json = JSON.parse(atob(getparam('id'))) ;
+    let driveid = json.id;
+    video.src(json.id);
+    video.poster_ = json.poster;
+  }
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6335ced4a8ebd2f2"></script>
+<img style="display: none;" src="https://iplogger.com/DrivePlyr">
