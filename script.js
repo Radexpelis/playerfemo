@@ -40,11 +40,11 @@ let getbase=()=>{
 
 //Player Openers (diff. func. coding intentionally)
 let openplyr=()=> { window.open('https://radexpelis.github.io/plyr.html?id='+base)}
-let openfluid=()=> { window.open('https://videoplyr.sh20raj.repl.co/fluid.html?id='+base)}
-let openafterglow=()=> { window.open('https://videoplyr.sh20raj.repl.co/afterglow.html?id='+base)}
-let openmediaelements=()=> { window.open('https://videoplyr.sh20raj.repl.co/mediaelements.html?id='+base)}
-let openvlitejs=()=> { window.open('https://videoplyr.sh20raj.repl.co/vlitejs.html?id='+base)}
-let opensp=()=> { window.open('https://videoplyr.sh20raj.repl.co/sopplayer.html?id='+base)}
+let openfluid=()=> { window.open('https://radexpelis.github.io//fluid.html?id='+base)}
+let openafterglow=()=> { window.open('https://radexpelis.github.io//afterglow.html?id='+base)}
+let openmediaelements=()=> { window.open('https://radexpelis.github.io//mediaelements.html?id='+base)}
+let openvlitejs=()=> { window.open('https://radexpelis.github.io//vlitejs.html?id='+base)}
+let opensp=()=> { window.open('https://radexpelis.github.io//sopplayer.html?id='+base)}
 
 
 let pmsg = 'Copy Embed Code' ;
@@ -60,7 +60,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 let embedfluid=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://videoplyr.sh20raj.repl.co/fluid.html?id=${base}" 
+src="https://radexpelis.github.io//fluid.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`)
@@ -68,7 +68,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 let embedafterglow=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://videoplyr.sh20raj.repl.co/afterglow.html?id=${base}" 
+src="https://radexpelis.github.io//afterglow.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`)
@@ -76,7 +76,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 let embedmediaelements=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://videoplyr.sh20raj.repl.co/mediaelements.html?id=${base}" 
+src="https://radexpelis.github.io//mediaelements.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`)
@@ -84,7 +84,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 let embedvlitejs=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://videoplyr.sh20raj.repl.co/vlitejs.html?id=${base}" 
+src="https://radexpelis.github.io//vlitejs.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`);
@@ -92,7 +92,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 let embedsp=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://videoplyr.sh20raj.repl.co/sopplayer.html?id=${base}" 
+src="https://radexpelis.github.io//sopplayer.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`);
@@ -101,11 +101,11 @@ gyroscope; picture-in-picture" allowfullscreen>
 
 
 let iframe=()=> {
-  s('afterglow').src= 'https://videoplyr.sh20raj.repl.co/afterglow.html?id='+base;
-  s('fluid').src='https://videoplyr.sh20raj.repl.co/fluid.html?id='+base;
+  s('afterglow').src= 'https://radexpelis.github.io//afterglow.html?id='+base;
+  s('fluid').src='https://radexpelis.github.io//fluid.html?id='+base;
   s('plyr').src='https://radexpelis.github.io/plyr.html?id='+base;
-  s('vlitejs').src='https://videoplyr.sh20raj.repl.co/vlitejs.html?id='+base;
-  s('mediaelements').src='https://videoplyr.sh20raj.repl.co/mediaelements.html?id='+base;
-    s('sopplayer').src='https://videoplyr.sh20raj.repl.co/sopplayer.html?id='+base;
+  s('vlitejs').src='https://radexpelis.github.io//vlitejs.html?id='+base;
+  s('mediaelements').src='https://radexpelis.github.io//mediaelements.html?id='+base;
+    s('sopplayer').src='https://radexpelis.github.io//sopplayer.html?id='+base;
   
 }
