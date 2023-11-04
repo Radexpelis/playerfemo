@@ -39,7 +39,7 @@ let getbase=()=>{
 
 
 //Player Openers (diff. func. coding intentionally)
-let openplyr=()=> { window.open('https://videoplyr.sh20raj.repl.co/plyr.html?id='+base)}
+let openplyr=()=> { window.open('https://radexpelis.github.io/plyr.html?id='+base)}
 let openfluid=()=> { window.open('https://videoplyr.sh20raj.repl.co/fluid.html?id='+base)}
 let openafterglow=()=> { window.open('https://videoplyr.sh20raj.repl.co/afterglow.html?id='+base)}
 let openmediaelements=()=> { window.open('https://videoplyr.sh20raj.repl.co/mediaelements.html?id='+base)}
@@ -52,7 +52,7 @@ let pmsg = 'Copy Embed Code' ;
 let embedplyr=()=> {
   prompt(pmsg,`<iframe width="560" height="315" 
 scrolling="no"
-src="https://videoplyr.sh20raj.repl.co/plyr.html?id=${base}" 
+src="https://radexpelis.github.io/plyr.html?id=${base}" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
 gyroscope; picture-in-picture" allowfullscreen>
 </iframe>`)
@@ -103,7 +103,7 @@ gyroscope; picture-in-picture" allowfullscreen>
 let iframe=()=> {
   s('afterglow').src= 'https://videoplyr.sh20raj.repl.co/afterglow.html?id='+base;
   s('fluid').src='https://videoplyr.sh20raj.repl.co/fluid.html?id='+base;
-  s('plyr').src='https://videoplyr.sh20raj.repl.co/plyr.html?id='+base;
+  s('plyr').src='https://radexpelis.github.io/plyr.html?id='+base;
   s('vlitejs').src='https://videoplyr.sh20raj.repl.co/vlitejs.html?id='+base;
   s('mediaelements').src='https://videoplyr.sh20raj.repl.co/mediaelements.html?id='+base;
     s('sopplayer').src='https://videoplyr.sh20raj.repl.co/sopplayer.html?id='+base;
